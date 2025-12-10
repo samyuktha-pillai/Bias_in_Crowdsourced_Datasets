@@ -46,11 +46,26 @@ PMI(x, y) = \log \frac{P(x,y)}{P(x)P(y)}
 
 ```
 ├── biasInCrowdsourcedDataset_v2.ipynb   # Main notebook
-├── data/                                # Raw dataset folder
 ├── README.md                            # Project documentation
 └── requirements.txt                     # Python dependencies (if added)
 ```
 
+---
+
+## *Dataset (Not Included Due to Size)*
+
+This project uses the *SNLI (Stanford Natural Language Inference) dataset* combined with *identity attribute labels* for bias analysis.
+Due to its large size, the dataset is *not included* in this repository.
+
+### 🔗 How to Download the Dataset
+
+1. *Download SNLI* from the official source:
+   [https://nlp.stanford.edu/projects/snli/](https://nlp.stanford.edu/projects/snli/)
+
+2. *Identity labels* can be obtained from the same research sources used for bias studies, such as the *CrowS-Pairs* or *Bias-in-Bios* datasets (depending on which one you used).
+   If you used a specific label file, mention it like this:
+
+   > Identity labels file (e.g., identity_labels.json or bias_annotations.csv) should be placed in the data/ directory after download.
 ---
 
 ## ⚙️ **Key Steps in the Notebook**
