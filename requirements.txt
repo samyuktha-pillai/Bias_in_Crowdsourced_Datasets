@@ -1,0 +1,8 @@
+# Core data handling and manipulation
+pandas>=1.3.0
+
+# Natural Language Toolkit for tokenization, stopwords, and utilities
+nltk>=3.6.5
+
+# For displaying progress bars (used in calculating bigram frequencies)
+tqdm>=4.62.3
